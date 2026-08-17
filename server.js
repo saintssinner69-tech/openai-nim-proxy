@@ -22,14 +22,14 @@ const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
 const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwargs thinking parameter
 
 // 🔥 DEBUG LOGGING TOGGLE - Logs incoming model/system prompt + routing decisions to Render logs
-const DEBUG_LOGGING = true; // Set to false once you've confirmed everything routes correctly
+const DEBUG_LOGGING = false; // Set to false once you've confirmed everything routes correctly
 
 // 🔥 SYSTEM PROMPT FOLDING TOGGLE - Some open-weight models don't weight the
 // `system` role as strongly as OpenAI/Anthropic models. If your Global/Custom
 // Prompt seems to be getting ignored even though logs confirm it's arriving,
 // try flipping this to true. It merges system message(s) into the first user
 // turn instead of sending them as a separate `system` role.
-const FOLD_SYSTEM_INTO_USER = true;
+const FOLD_SYSTEM_INTO_USER = false;
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
