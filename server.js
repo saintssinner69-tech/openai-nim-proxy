@@ -29,7 +29,7 @@ const DEBUG_LOGGING = true; // Set to false once you've confirmed everything rou
 // Prompt seems to be getting ignored even though logs confirm it's arriving,
 // try flipping this to true. It merges system message(s) into the first user
 // turn instead of sending them as a separate `system` role.
-const FOLD_SYSTEM_INTO_USER = false;
+const FOLD_SYSTEM_INTO_USER = true;
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
