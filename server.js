@@ -34,7 +34,7 @@ const FOLD_SYSTEM_INTO_USER = false;
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'z-ai/glm-5.2',
-  'gpt-4': 'minimaxai/minimax-m3',
+  'gpt-4': 'poolside/laguna-xs-2.1',
   'gpt-4-turbo': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-4o': 'moonshotai/kimi-k3',
   'claude-3-opus': 'deepseek-ai/deepseek-v4-pro-0813',
