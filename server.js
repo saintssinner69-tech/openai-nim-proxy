@@ -33,13 +33,13 @@ const FOLD_SYSTEM_INTO_USER = false;
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'z-ai/glm-5.2',
-  'gpt-4': 'poolside/laguna-xs-2.1',
-  'gpt-4-turbo': 'nvidia/nemotron-3-ultra-550b-a55b',
+  'gpt-3.5-turbo': 'deepseek-ai/deepseek-v4.1-flash',
+  'gpt-4': 'z-ai/glm-5.3',
+  'gpt-4-turbo': 'z-ai/glm-5.3-flash',
   'gpt-4o': 'moonshotai/kimi-k3',
-  'claude-3-opus': 'deepseek-ai/deepseek-v4-pro-0813',
-  'claude-3-sonnet': 'openai/gpt-oss-120b',
-  'gemini-pro': 'deepseek-ai/deepseek-v4-flash-0731'
+  'claude-3-opus': 'nvidia/nemotron-3-ultra-550b-a55b',
+  'claude-3-sonnet': 'nvidia/nemotron-3-super-120b-a12b',
+  'gemini-pro': 'poolside/laguna-xs-2.1'
 };
 
 // Merge all `system` role messages into the first `user` message.
