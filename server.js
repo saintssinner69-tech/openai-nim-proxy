@@ -39,7 +39,7 @@ const MODEL_MAPPING = {
   'gpt-4o': 'moonshotai/kimi-k3',
   'claude-3-opus': 'nvidia/nemotron-3-ultra-550b-a55b',
   'claude-3-sonnet': 'nvidia/nemotron-3-super-120b-a12b',
-  'gemini-pro': 'poolside/laguna-xs-2.1'
+  'gemini-pro': 'stepfun-ai/step-5-preview'
 };
 
 // Merge all `system` role messages into the first `user` message.
